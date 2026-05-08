@@ -285,7 +285,7 @@ public:
         string dbl(SCREEN_WIDTH, '\xcd'); // ASCII fallback double line
         cout << C::RED << C::BOLD;
         cout << string(SCREEN_WIDTH, '=') << "\n";
-        cout << "         YOUR DUCKDUCKPLAY WRAPPED SUMMARY\n";
+        cout << "         YOUR MDZ WRAPPED SUMMARY\n";
         cout << string(SCREEN_WIDTH, '=') << C::RESET << "\n\n";
 
         cout << C::GRAY << "  Total plays recorded" << C::RESET
@@ -791,7 +791,7 @@ class MusicPlayer
         // ┌─ Header ───────────────────────────────────┐
         printDoubleRule();
         cout << C::RED << C::BOLD;
-        printCentered("DuckDuckPlay", C::RED + C::BOLD);
+        printCentered("MDZ MUSIC", C::RED + C::BOLD);
         printDoubleRule();
 
         // ┌─ Now Playing section ───────────────────────┐
@@ -1438,7 +1438,7 @@ public:
                 stopPlaying();
                 clearScreen();
                 showCursor(true);
-                cout << C::RED << C::BOLD << "\n  Goodbye from DuckDuckPlay!\n\n" << C::RESET;
+                cout << C::RED << C::BOLD << "\n  Thank you for using MDZ Music!\n\n" << C::RESET;
                 return;
             }
         }
